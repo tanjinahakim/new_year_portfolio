@@ -50,22 +50,47 @@
     align-items: center; 
 }
 .list{
+    margin-left: 0px;
     margin-top: 15px;
-    list-style: none;
-    padding-left: 0px;
-    
-}
-.list-space{
-    margin: 10px;
-    padding: 0px;
 }
 .person-description{
     padding-left: 100px;
     margin-top: 150px;
 }
-h3{
+.person-title{
     font-weight: 700;
     font-size: 50px;
     color: #151414;
     margin-bottom: 24px;
+}
+/* My plans section styles */
+.plans-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+.my-plans-section{
+    margin: 130px 230px ;
+    text-align: center;
+}
+.plan-info-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.plan-info{
+    margin-top: 50px;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.plan-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
 }
