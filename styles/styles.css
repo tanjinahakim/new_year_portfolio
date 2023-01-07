@@ -160,3 +160,132 @@
     margin-top: 20px;
     padding-left: 230px;
 }
+/* call now section */
+.call-section{
+    margin-top: 130px;
+    margin-left: 100px;
+    margin-bottom: 130px;
+    margin-right: 300px;
+}
+.call-container{
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    right: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    border-color: transparent;
+    background-color: transparent;
+}
+.call-div{
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+    border: none;
+    border-color: transparent;
+    background-image: linear-gradient(to right, rgba(235, 96, 15, 0.712),rgba(0,0,0,0.1)), url('../images/watch.png');
+}
+.title{
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-right: 400px;
+    margin-left: 64px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.btn-call{
+    width: 150px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #F15B22;
+    background: #FFFFFF;
+    border: 1px;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 16px 20px 16px 16px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 64px;
+}
+/* Service section styles */
+.service-section{
+    margin: 130px 230px ;
+    text-align: center;
+}
+.service{
+    display: flex;
+
+}
+.service-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin: 30px 400px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card1{
+    height: 200;
+    width: 100;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin: 15px;
+    /* position: relative;
+    overflow: hidden; */
+    background: #f7e81c;
+    text-align: center;
+}
+.card2{
+    height: 200;
+    width: 100;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin: 15px;
+    /* position: relative;
+    overflow: hidden; */
+    background: #df54a0;
+    text-align: center;
+}
+.card3{
+    height: 200;
+    width: 100;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin: 15px;
+    background: #7256ec;
+    text-align: center;
+}
+.btn-service{
+    width: 150px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #140d0d;
+    background: #dfa9a9;
+    border: 1px;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 16px 20px 16px 16px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 64px;
+}
+.subtitle{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 25px;
+}
